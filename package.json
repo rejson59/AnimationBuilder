@@ -1,0 +1,12 @@
+{
+  "name": "stickmotion-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StickMotion Studio — prosty i wciągający edytor animacji postaci w przeglądarce (statyczna strona pod GitHub Pages).",
+  "scripts": {
+    "test": "node test/core.test.js && node test/smoke.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "*"
+  }
+}
